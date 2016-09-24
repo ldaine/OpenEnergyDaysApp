@@ -1,5 +1,8 @@
 <ion-tabs>
   <ion-tab [root]="tabHomeRoot" tabIcon="house_icon"></ion-tab>
-  <ion-tab [root]="tabStatisticsRoot" tabIcon="powerpig_icon"></ion-tab>
-  <ion-tab tabIcon="avatar_icon" (ionSelect)="presentModal()"></ion-tab>
+  //widget to set up home.
+  <ion-tab tabIcon="powerpig_icon" (ionSelect)="presentModal('Statistics')"></ion-tab>
+  //statistics(splitted): compare to me, neigbours, others.
+  <ion-tab tabIcon="avatar_icon" (ionSelect)="presentModal('Profile')"></ion-tab>
+  //profile page
 </ion-tabs>

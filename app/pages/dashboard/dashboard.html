@@ -1,0 +1,48 @@
+<ion-content padding class="dashboard">
+  <ion-grid>
+    <ion-row>
+      <ion-col><div class="avatar_one" (click)="presentModal('Profile')"></div></ion-col>
+      <ion-col>
+        <div class="description">
+          <p>250 Points</p>
+          <p>3rd Place</p>
+          <p>test me </p>
+          <p>..</p>
+          <p>..</p>
+        </div>
+      </ion-col>
+      <ion-col>
+        <ion-row>
+          <ion-col><div class="icon smiley_lessgood" (click)="presentModal('Statistics')"></div></ion-col>
+        </ion-row>
+            <ion-row>
+              <ion-col><div class="icon smiley_good" (click)="presentModal('Statistics')"></div></ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col><div class="icon smiley_great" (click)="presentModal('House')"></div></ion-col>
+            </ion-row>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-row>
+          <ion-col class="points" (click)="presentModal('Statistics')"><div class="icon student_guld" ></div><p>2050</p></ion-col>
+          <ion-col class="points" (click)="presentModal('Statistics')"><div class="icon student_silver" ></div><p>1990</p></ion-col>
+          <ion-col class="points" (click)="presentModal('Statistics')"><div class="icon student_bronze" ></div><p>1500</p></ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid class="footer">
+    <ion-row>
+      <ion-col>
+        <ion-row>
+          <ion-col><div class="main_icon house_icon" (click)="presentModal('House')"></div></ion-col>
+          <ion-col><div class="main_icon avatar_icon" (click)="presentModal('Profile')"></div></ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

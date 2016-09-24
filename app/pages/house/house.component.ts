@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import { NavController, ViewController } from 'ionic-angular';
+import { NavController,ViewController } from 'ionic-angular';
 
 @Component({
-  templateUrl: 'build/pages/statistics/statistics.html'
+  templateUrl: 'build/pages/house/house.html'
 })
-export class StatisticsPage {
+export class HousePage {
   constructor(public navCtrl: NavController,
-              private viewController:ViewController) {
+              public viewController: ViewController) {
+
   }
 
   dismiss() {

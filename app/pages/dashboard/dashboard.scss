@@ -1,0 +1,94 @@
+.dashboard {
+  background-image: url("../../img/Background_autumn-01-01_cropped.jpg");
+  background-size: cover;
+  .avatar_one{
+    background-image: url("../../img/mufmix_07.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 7.5rem;
+    height:20rem;
+  }
+
+  .icon {
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:1px solid lightgrey;
+    box-shadow: 2px 2px 5px #888888;
+    display: table;
+    margin: 0 auto;
+
+    -webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+  }
+
+  .main_icon {
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:1px solid lightgrey;
+    box-shadow: 2px 2px 5px #888888;
+    display: table;
+    margin: 0 auto;
+
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+  }
+
+  .points{
+    text-align:center;
+  }
+  .points p{
+    margin:0;
+    padding:0;
+  }
+
+  .powerpig_icon {
+    background-image: url(../../img/btn/powerpig.svg);
+  }
+
+  .avatar_icon {
+    background-image: url(../../img/btn/Avatar_head.svg);
+  }
+
+  .house_icon{
+    background-image: url(../../img/btn/house.svg);
+  }
+
+  .smiley_good{
+    background-image:url(../../img/smileys/Smiley_good.svg)
+  }
+
+  .smiley_great{
+    background-image:url(../../img/smileys/Smiley_great.svg)
+  }
+
+  .smiley_lessgood{
+    background-image:url(../../img/smileys/Smiley_lessgood.svg)
+  }
+
+  .student_silver{
+    background-image:url(../../img/medals/Student_silver.svg)
+  }
+
+  .student_guld{
+    background-image:url(../../img/medals/Student_guld.svg)
+  }
+
+  .student_bronze{
+    background-image:url(../../img/medals/Student_bronze.svg)
+  }
+
+  .footer{
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+
+}
