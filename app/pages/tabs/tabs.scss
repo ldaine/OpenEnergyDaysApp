@@ -1,0 +1,32 @@
+.ion-tabbar{
+  background-color:none;
+}
+
+
+.tab-button-icon {
+  max-height: 42px;
+}
+
+.ion-md-powerpig_icon {
+  min-width:  2.5rem;
+}
+
+.ion-md-powerpig_icon:after {
+  content: url(../../img/btn/powerpig.svg);
+}
+
+.ion-md-avatar_icon {
+  min-width: 4rem;
+}
+
+.ion-md-avatar_icon:after {
+  content: url(../../img/btn/Avatar_head.svg);
+}
+
+.ion-md-house_icon {
+  min-width: 4rem;
+}
+
+.ion-md-house_icon:after {
+  content: url(../../img/btn/house.svg);
+}
