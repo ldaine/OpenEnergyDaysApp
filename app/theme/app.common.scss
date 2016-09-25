@@ -1,16 +1,34 @@
 .avatar_one{
   background-image: url("../../img/mufmix_07.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 
 
-  width: 7.5rem;
-  height:20rem;
+  //width: 7.5rem;
+  min-height:20rem;
 }
 
 .icon {
   height: 50px;
   width: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border:1px solid lightgrey;
+  box-shadow: 2px 2px 5px #888888;
+  display: table;
+  margin: 0 auto;
+
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+}
+
+
+
+
+.icon_medal {
+  height: 65px;
+  width: 65px;
   background-repeat: no-repeat;
   background-size: cover;
   border:1px solid lightgrey;
@@ -40,8 +58,9 @@ border-radius: 25px;
 }
 
 .points{
+
   text-align:center;
-  margin-top:25px;
+  margin-top:50px;
   margin-bottom:50px;
 }
 .points p{
@@ -83,4 +102,12 @@ border-radius: 25px;
 
 .student_bronze{
   background-image:url(../../img/medals/Student_bronze.svg)
+}
+
+
+.footer{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
 }

@@ -5,25 +5,27 @@
 
   .chart {
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    width: 100%;
 
     //width: 7.5rem;
-    height:150px;
+    min-height:350px;
   }
 
 
+
   .statistic_me{
-      background-image:url(../../img/charts/my_energy_chart.jpg)
+      background-image:url(../../img/charts/my_energy_chart.JPG)
 
   }
 
   .statistic_me_savings{
-      background-image:url(../../img/charts/my_savings_chart.jpg)
+      background-image:url(../../img/charts/my_savings_chart.JPG)
 
   }
 
   .statistic_friends{
-      background-image:url(../../img/charts/my_class_chart.jpg)
+      background-image:url(../../img/charts/MyClass_graf_small.jpg)
 
   }
 

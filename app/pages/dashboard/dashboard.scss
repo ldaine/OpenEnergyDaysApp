@@ -2,11 +2,54 @@
   background-image: url("../../img/Background_autumn-01-01_cropped.jpg");
   background-size: cover;
 
-
-  .footer{
-    position:absolute;
-    bottom:0;
-    left:0;
-    right:0;
+  h2 img {
+    width: 15px;
+    height:15px;
   }
+
+  .icon_stat_me {
+
+  }
+
+  .icon_stat_class {
+
+  }
+
+  .icon_stat_class::after {
+    content: url(../../img/btn/house.svg);
+    position:relative;
+    display:block;
+
+    height: 25px;
+    width: 25px;
+    top: 25px;
+    left:34px;
+  }
+
+  .icon_stat_others {
+
+  }
+
+  .icon_stat_others::after {
+    content: url(../../img/btn/powerpig.svg);
+    position:relative;
+    display:block;
+
+
+    height: 15px;
+    width: 25px;
+    top: 16px;
+    left:34px;
+  }
+
+  .icon_stat_me::after {
+    content: url(../../img/btn/Avatar_head.svg);
+    position:relative;
+display:block;
+    height: 25px;
+    width: 25px;
+    top: 30px;
+    left:34px;
+  }
+
 }
