@@ -9,7 +9,7 @@
     width: 100%;
 
     //width: 7.5rem;
-    min-height:350px;
+    min-height:250px;
   }
 
 
@@ -25,6 +25,11 @@
   }
 
   .statistic_friends{
+      background-image:url(../../img/charts/Similarhouseholds_graf_small.jpg)
+
+  }
+
+  .statistic_class{
       background-image:url(../../img/charts/MyClass_graf_small.jpg)
 
   }

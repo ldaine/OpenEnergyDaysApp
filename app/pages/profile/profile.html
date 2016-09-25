@@ -1,6 +1,38 @@
 <ion-content padding class="profile">
-  <p>
-    Profile
-  </p>
-  <button type="button" name="button" (click)="dismiss()">X</button>
+  <h2>Your Profile</h2>
+  <ion-grid>
+    <ion-row>
+      <ion-col><div class="avatar_one" (click)="presentModal('Profile')"></div></ion-col>
+      <ion-col>
+        <div class="description">
+          <p>Username: Markus</p>
+          <p>Points: 2050<img src="../../img/btn/Coin_point.svg" alt="" /></p>
+          <p>Place: 1th</p>
+          <p>Member SInce: 1st of September 2016</p>
+
+        </div>
+      </ion-col>
+      <ion-col class="points"><div class="icon_medal student_guld" ></div></ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col><div class="icon smiley_lessgood icon_stat_me"></div></ion-col>
+      <ion-col><div class="icon smiley_good icon_stat_class"></div></ion-col>
+      <ion-col><div class="icon smiley_great icon_stat_others"></div></ion-col>
+
+
+    </ion-row>
+
+  </ion-grid>
+
+  <ion-grid class="footer">
+    <ion-row>
+      <ion-col>
+        <ion-row>
+          <ion-col><button type="button" name="button" (click)="dismiss()">X</button></ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
