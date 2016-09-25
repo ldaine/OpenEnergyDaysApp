@@ -25,8 +25,14 @@ export class DashboardPage {
    if(page==="Profile"){
      let modal = this.modalController.create(ProfilePage);
      modal.present();
-   } else if(page==="Statistics"){
-     let modal = this.modalController.create(StatisticsPage);
+   } else if(page==="Statistics-me"){
+     let modal = this.modalController.create(StatisticsPage, {"mode": "me"});
+     modal.present();
+   } else if(page==="Statistics-friends"){
+     let modal = this.modalController.create(StatisticsPage, {"mode": "friends"});
+     modal.present();
+   } else if(page==="Statistics-others"){
+     let modal = this.modalController.create(StatisticsPage, {"mode": "others"});
      modal.present();
    } else if(page==="House"){
      let modal = this.modalController.create(HousePage);

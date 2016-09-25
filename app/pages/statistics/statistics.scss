@@ -2,4 +2,33 @@
 
   background-image: url("../../img/Background_autumn-01-01_cropped.jpg");
   background-size: cover;
+
+  .chart {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    //width: 7.5rem;
+    height:150px;
+  }
+
+
+  .statistic_me{
+      background-image:url(../../img/charts/my_energy_chart.jpg)
+
+  }
+
+  .statistic_me_savings{
+      background-image:url(../../img/charts/my_savings_chart.jpg)
+
+  }
+
+  .statistic_friends{
+      background-image:url(../../img/charts/my_class_chart.jpg)
+
+  }
+
+  .statistic_others{
+      background-image:url(../../img/smileys/Smiley_good.svg)
+
+  }
 }

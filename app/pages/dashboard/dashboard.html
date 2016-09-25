@@ -11,22 +11,22 @@
       </ion-col>
       <ion-col>
         <ion-row>
-          <ion-col><div class="icon smiley_lessgood" (click)="presentModal('Statistics')"></div></ion-col>
+          <ion-col><div class="icon smiley_lessgood" (click)="presentModal('Statistics-me')"></div></ion-col>
         </ion-row>
             <ion-row>
-              <ion-col><div class="icon smiley_good" (click)="presentModal('Statistics')"></div></ion-col>
+              <ion-col><div class="icon smiley_good" (click)="presentModal('Statistics-friends')"></div></ion-col>
             </ion-row>
             <ion-row>
-              <ion-col><div class="icon smiley_great" (click)="presentModal('House')"></div></ion-col>
+              <ion-col><div class="icon smiley_great" (click)="presentModal('Statistics-others')"></div></ion-col>
             </ion-row>
       </ion-col>
     </ion-row>
     <ion-row>
       <ion-col>
-        <ion-row>
-          <ion-col class="points" (click)="presentModal('Statistics')"><div class="icon student_guld" ></div><p>2050</p></ion-col>
-          <ion-col class="points" (click)="presentModal('Statistics')"><div class="icon student_silver" ></div><p>1990</p></ion-col>
-          <ion-col class="points" (click)="presentModal('Statistics')"><div class="icon student_bronze" ></div><p>1500</p></ion-col>
+        <ion-row (click)="presentModal('Statistics-me')">
+          <ion-col class="points"><div class="icon student_guld" ></div><p>2050</p></ion-col>
+          <ion-col class="points"><div class="icon student_silver" ></div><p>1990</p></ion-col>
+          <ion-col class="points"><div class="icon student_bronze" ></div><p>1500</p></ion-col>
         </ion-row>
       </ion-col>
     </ion-row>

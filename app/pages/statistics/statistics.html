@@ -1,8 +1,34 @@
 
 
 <ion-content class="statistics">
-  <p>
-    Contact
-  </p>
+  <ion-grid>
+    <h1>Statistics</h1>
+
+    <ion-row *ngIf="mode_me">
+      <ion-col>
+        <div class=" chart statistic_me"></div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngIf="mode_me">
+      <ion-col>
+        <div class=" chart statistic_me_savings"></div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngIf="mode_friends">
+      <ion-col>
+        <div class="chart statistic_friends">
+
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngIf="mode_others">
+      <ion-col>
+        <div class="chart statistic_friends"></div>
+      </ion-col>
+    </ion-row>
+    </ion-grid>
   <button type="button" name="button" (click)="dismiss()">X</button>
 </ion-content>
