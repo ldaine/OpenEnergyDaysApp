@@ -1,7 +1,48 @@
 <ion-content padding class="house">
 
-  <p>
-    House
-  </p>
-  <button type="button" name="button" (click)="dismiss()">X</button>
+  <h2>Your House</h2>
+  <ion-grid class="room_plan">
+    <ion-row>
+      <ion-col>
+
+        <h4>Kitchen</h4>
+        <div class="comp_lamp"></div>
+
+      </ion-col>
+      <ion-col>
+        <h4>Bathroom</h4>
+        <div class="comp_lamp"></div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <h4> My Bedroom</h4>
+        <div class="comp_lamp"></div>
+        <div class="comp_lamp"></div>
+      </ion-col>
+      <ion-col>
+        <h4>Parents Bedroom</h4>
+        <div class="comp_lamp"></div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <h4> Stue</h4>
+        <div class="comp_lamp"></div>
+        <div class="comp_lamp"></div>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <ion-grid class="footer">
+    <ion-row>
+      <ion-col>
+        <ion-row>
+          <ion-col><button type="button" name="button" (click)="dismiss()">X</button></ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

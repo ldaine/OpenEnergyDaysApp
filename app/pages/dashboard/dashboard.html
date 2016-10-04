@@ -15,10 +15,10 @@
       </ion-col>
       <ion-col>
         <ion-row>
-          <ion-col><div class="icon smiley_lessgood icon_stat_me" (click)="presentModal('Statistics-me')"></div></ion-col>
+          <ion-col><div class="icon smiley_good icon_stat_me" (click)="presentModal('Statistics-me')"></div></ion-col>
         </ion-row>
             <ion-row>
-              <ion-col><div class="icon smiley_good icon_stat_class" (click)="presentModal('Statistics-friends')"></div></ion-col>
+              <ion-col><div class="icon smiley_lessgood icon_stat_class" (click)="presentModal('Statistics-friends')"></div></ion-col>
             </ion-row>
             <ion-row>
               <ion-col><div class="icon smiley_great icon_stat_others" (click)="presentModal('Statistics-others')"></div></ion-col>
@@ -27,7 +27,7 @@
     </ion-row>
     <ion-row>
       <ion-col>
-        <ion-row (click)="presentModal('Statistics-me')">
+        <ion-row (click)="presentModal('Statistics-others')">
           <ion-col class="points"><div class="icon_medal student_guld" ></div><p>2050</p></ion-col>
           <ion-col class="points"><div class="icon_medal student_silver" ></div><p>2046</p></ion-col>
           <ion-col class="points"><div class="icon_medal student_bronze" ></div><p>2039</p></ion-col>
